@@ -1,0 +1,82 @@
+/* ═══════════════════════════════════════════════════════════════
+   App Dashboard Layout
+   ═══════════════════════════════════════════════════════════════ */
+
+.dashboard {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: var(--sp-8);
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-8);
+}
+
+.dashboard__header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding-bottom: var(--sp-6);
+  border-bottom: 2px solid var(--surface-container-high);
+}
+
+.dashboard__title-group {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-1);
+}
+
+.dashboard__title {
+  font-family: var(--font-headline);
+  font-size: 2.25rem;
+  font-weight: 800;
+  color: var(--primary-container);
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+}
+
+.dashboard__subtitle {
+  font-family: var(--font-label);
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--on-surface-variant);
+}
+
+.dashboard__meta {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-6);
+}
+
+.dashboard__patient {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 2px;
+}
+
+.dashboard__patient-name {
+  font-family: var(--font-headline);
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--on-surface);
+}
+
+.dashboard__patient-id {
+  font-family: var(--font-label);
+  font-size: 0.75rem;
+  color: var(--on-surface-variant);
+  text-transform: uppercase;
+}
+
+.dashboard__grid {
+  display: grid;
+  grid-template-columns: 7fr 4fr; /* Asymmetrical editorial layout */
+  gap: var(--sp-8);
+  align-items: start;
+}
+
+@media (max-width: 1200px) {
+  .dashboard__grid {
+    grid-template-columns: 1fr;
+  }
+}

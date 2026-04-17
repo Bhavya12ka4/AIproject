@@ -1,0 +1,158 @@
+/* ═══════════════════════════════════════════════════════════════
+   ECG Guard Analytics Platform — Design Tokens & Global Styles
+   Design System: "Clinical Precision & Tonal Depth"
+   Source: Stitch MCP → assets/2c024ee0cd3346bebe4aedc2b9f1f13f
+   ═══════════════════════════════════════════════════════════════ */
+
+/* ── Reset ── */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* ── Primary (Clinical Blue — Authority & Trust) ── */
+  --primary: #002869;
+  --primary-container: #0B3D91;
+  --on-primary: #ffffff;
+  --on-primary-container: #8DADFF;
+  --primary-fixed: #DAE2FF;
+  --primary-fixed-dim: #B1C5FF;
+  --inverse-primary: #B1C5FF;
+
+  /* ── Secondary (Cyan — "Healthy" Signal) ── */
+  --secondary: #00696B;
+  --secondary-container: #56F5F8;
+  --on-secondary: #ffffff;
+  --on-secondary-container: #006E70;
+  --secondary-fixed: #5AF8FB;
+  --secondary-fixed-dim: #2DDBDE;
+
+  /* ── Tertiary (Deep Slate) ── */
+  --tertiary: #142E42;
+  --tertiary-container: #2C4459;
+  --on-tertiary: #ffffff;
+  --on-tertiary-container: #98B1CA;
+  --tertiary-fixed: #CCE5FF;
+  --tertiary-fixed-dim: #B0C9E3;
+
+  /* ── Error (Cardiac Alerts ONLY — Never decorative) ── */
+  --error: #BA1A1A;
+  --error-container: #FFDAD6;
+  --on-error: #ffffff;
+  --on-error-container: #93000A;
+
+  /* ── Surfaces (Tonal Layering Stack) ── */
+  --background: #F7F9FC;
+  --on-background: #191C1E;
+  --surface: #F7F9FC;
+  --surface-dim: #D8DADD;
+  --surface-bright: #F7F9FC;
+  --surface-container-lowest: #ffffff;
+  --surface-container-low: #F2F4F7;
+  --surface-container: #ECEEF1;
+  --surface-container-high: #E6E8EB;
+  --surface-container-highest: #E0E3E6;
+  --surface-variant: #E0E3E6;
+  --surface-tint: #345BAF;
+  --on-surface: #191C1E;
+  --on-surface-variant: #434652;
+
+  /* ── Outlines ── */
+  --outline: #747783;
+  --outline-variant: #C4C6D3;
+
+  /* ── Inverse ── */
+  --inverse-surface: #2D3133;
+  --inverse-on-surface: #EFF1F4;
+
+  /* ── Typography ── */
+  --font-headline: 'Manrope', sans-serif;
+  --font-body: 'Inter', sans-serif;
+  --font-label: 'Inter', sans-serif;
+
+  /* ── Spacing (8px Grid) ── */
+  --sp-1: 0.25rem;
+  --sp-2: 0.5rem;
+  --sp-3: 0.75rem;
+  --sp-4: 1rem;
+  --sp-5: 1.25rem;
+  --sp-6: 1.5rem;
+  --sp-8: 2rem;
+  --sp-10: 2.5rem;
+  --sp-12: 3rem;
+  --sp-16: 4rem;
+  --sp-20: 5rem;
+  --sp-24: 6rem;
+
+  /* ── Radii ── */
+  --radius-none: 0;
+  --radius-sm: 0.125rem;
+  --radius-md: 0.375rem;
+  --radius-lg: 0.5rem;
+  --radius-xl: 0.75rem;
+  --radius-2xl: 1rem;
+  --radius-full: 9999px;
+
+  /* ── Shadows ── */
+  --shadow-ambient: 0px 12px 32px rgba(11, 61, 145, 0.08);
+  --shadow-elevated: 0px 20px 48px rgba(11, 61, 145, 0.12);
+  --shadow-none: none;
+}
+
+html {
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: var(--font-body);
+  background: var(--background);
+  color: var(--on-surface);
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+/* ── Utility: Glass Panel ── */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.60);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+/* ── Scrollbar Styling ── */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--surface-container-low);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--outline-variant);
+  border-radius: var(--radius-full);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--outline);
+}
+
+/* ── Focus States (accessible) ── */
+:focus-visible {
+  outline: 2px solid var(--primary-fixed-dim);
+  outline-offset: 2px;
+}
+
+/* ── Transitions ── */
+a, button, input, [role="button"] {
+  transition: all 0.25s cubic-bezier(0.2, 0, 0, 1);
+}
