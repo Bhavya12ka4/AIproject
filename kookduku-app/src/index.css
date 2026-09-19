@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* ── Light / White-Gray Theme ── */
+    --color-background: #F8F9FA;
+    --color-surface-container: #FFFFFF;
+    --color-surface-container-high: #F1F3F5;
+    --color-surface-container-highest: #E9ECEF;
+    --color-surface-container-lowest: #FFFFFF;
+    --color-surface-container-low: #F8F9FA;
+    --color-surface-bright: #E2E8F0;
+    --color-on-surface: #1A1A1A;
+    --color-on-surface-variant: #4A5568;
+    --color-outline: #718096;
+    --color-outline-variant: #CBD5E0;
+    --color-primary-container: #E23744;
+    --color-primary: #C0392B;
+    --color-secondary: #D97706;
+    --color-border: #E2E8F0;
+    --color-input-bg: #FFFFFF;
+  }
+
+  .dark {
+    /* ── Dark Theme (Original Moody Charcoal) ── */
+    --color-background: #131313;
+    --color-surface-container: #201f1f;
+    --color-surface-container-high: #2a2a2a;
+    --color-surface-container-highest: #353534;
+    --color-surface-container-lowest: #0e0e0e;
+    --color-surface-container-low: #1c1b1b;
+    --color-surface-bright: #393939;
+    --color-on-surface: #e5e2e1;
+    --color-on-surface-variant: #e4bebc;
+    --color-outline: #ab8987;
+    --color-outline-variant: #5b403f;
+    --color-primary-container: #ff535a;
+    --color-primary: #ffb3b1;
+    --color-secondary: #ffb95f;
+    --color-border: rgba(255, 255, 255, 0.08);
+    --color-input-bg: #181818;
+  }
+
+  html {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+  }
+
+  body {
+    @apply bg-[#F8F9FA] dark:bg-[#131313] text-gray-900 dark:text-neutral-100 antialiased transition-colors duration-200;
+  }
+}
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1;
+  }
+
+  .material-symbols-outlined.fill-icon {
+    font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+  }
+}
