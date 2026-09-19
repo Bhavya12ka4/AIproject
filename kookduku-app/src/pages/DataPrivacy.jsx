@@ -39,7 +39,7 @@ export default function PrivacyPolicy() {
           <ul className="space-y-1.5 text-slate-700 dark:text-neutral-300">
             <li><strong className="text-slate-900 dark:text-white">Company Name:</strong> Kook Du Ku Foods Pvt Ltd <span className="text-amber-700 dark:text-amber-300 font-mono">[REPLACE WITH ACTUAL LEGAL NAME]</span></li>
             <li><strong className="text-slate-900 dark:text-white">Registered Address:</strong> <span className="text-amber-700 dark:text-amber-300 font-mono">[FULL REGISTERED OFFICE ADDRESS]</span></li>
-            <li><strong className="text-slate-900 dark:text-white">Cloud Kitchen Address:</strong> HSR Layout, Sector 2, Bangalore – 560102 <span className="text-amber-700 dark:text-amber-300 font-mono">[VERIFY]</span></li>
+            <li><strong className="text-slate-900 dark:text-white">Restaurant Address:</strong> HSR Layout, Sector 2, Bangalore – 560102 <span className="text-amber-700 dark:text-amber-300 font-mono">[VERIFY]</span></li>
             <li><strong className="text-slate-900 dark:text-white">CIN:</strong> <span className="text-amber-700 dark:text-amber-300 font-mono">[CORPORATE IDENTITY NUMBER]</span></li>
             <li><strong className="text-slate-900 dark:text-white">GSTIN:</strong> <span className="text-amber-700 dark:text-amber-300 font-mono">[GST REGISTRATION NUMBER]</span></li>
             <li><strong className="text-slate-900 dark:text-white">Email:</strong> <span className="text-amber-700 dark:text-amber-300 font-mono">privacy@kookduku.com [REPLACE]</span></li>

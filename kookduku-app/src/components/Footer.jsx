@@ -11,7 +11,7 @@ const INFO = [
   {
     icon: "pin_drop",
     iconColor: "text-primary-container",
-    label: "Cloud Kitchen:",
+    label: "Restaurant:",
     value: "Kook Du Ku, F / 23,24, Royal Height, Near Vaishnodevi Circle, Ahmedabad – 382421",
   },
 ];
