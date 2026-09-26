@@ -81,7 +81,7 @@ export default function HeroBanner() {
           href="https://maps.app.goo.gl/VtN4PxGTp9Z7oDHt8?g_st=aw"
           target="_blank"
           rel="noopener noreferrer"
-          aria-label="Get directions to Kook Du Ku cloud kitchen (opens in Google Maps)"
+          aria-label="Get directions to Kook Du Ku restaurant (opens in Google Maps)"
           className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-slate-50 hover:bg-slate-100 dark:bg-neutral-800 dark:hover:bg-neutral-700 border border-slate-200 dark:border-neutral-700 text-slate-800 dark:text-neutral-200 whitespace-nowrap active:scale-95 transition-all text-xs font-semibold shadow-sm focus:outline-none focus-visible:ring-2 focus-visible:ring-[#C0392B]"
         >
           <span className="material-symbols-outlined text-[#C0392B] text-sm" aria-hidden="true">map</span>

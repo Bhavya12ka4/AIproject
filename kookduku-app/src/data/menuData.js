@@ -18,97 +18,121 @@ export const MENU_CATEGORIES = [
   "Extras & Drinks",
 ];
 
-// Curated authentic culinary images specifically mapped for Indian cloud kitchen dishes
+// Curated authentic culinary images specifically mapped for Indian restaurant dishes
 const IMAGES = {
   // --- BIRYANIS & RICE ---
-  biryaniHandi:
-    "https://lh3.googleusercontent.com/aida-public/AB6AXuDlR2oL1UOOWEFKPoML8JiwK9yNQOyWytrRb9VHvHMSm7v5W9Nta0QDMHgsWYo2nCja9Ig8LE9hNOtN4klsTtitOsYM-4b-jbAVeggTEf4VhwF59ZN1tosM4A8_a6RjNfvVNiJ5QqZJVI7Camvfi39W2Aoerobu1gRnQuDIvYNAY5zhycJU192TdgXyAUsQQ759P-5k2c4_x3Ev-FaxDBNDXULgSLzw9X4GkRjxQbP7tZS2xMyONyw1oKbMyA9W1ffrCJCx89XT3Tc",
-  biryaniChicken:
-    "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=500&auto=format&fit=crop&q=80",
-  biryaniMutton:
-    "https://images.unsplash.com/photo-1633945274405-b6c8069047b0?w=500&auto=format&fit=crop&q=80",
-  biryaniEgg:
-    "https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=500&auto=format&fit=crop&q=80",
-  friedRice:
-    "https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=500&auto=format&fit=crop&q=80",
-  pulav:
-    "https://images.unsplash.com/photo-1645177628172-a94c1f96e6db?w=500&auto=format&fit=crop&q=80",
-  steamedRice:
-    "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=500&auto=format&fit=crop&q=80",
+  biryaniHandi:        "/images/handi chicken dum briyani.jpeg",
+  biryaniChicken:      "/images/chicken briyani.jpg",
+  biryaniMutton:       "/images/mutton briyani.jpg",
+  biryaniEgg:          "/images/egg briyani.jpeg",
+  biryaniPrawn:        "/images/jinga pulva.jpg",
+  biryaniTikka:        "/images/chicken tikka pulva.jpg",
+  friedRice:           "/images/chiceken fired rice.jpg",
+  pulav:               "/images/chicken pulvav.jpeg",
+  steamedRice:         "/images/steamed rice.jpg",
+  friedRiceEgg:        "/images/egg fired rice.jpg",
+  friedRicePrawn:      "/images/jinga fired rice.jpg",
+  friedRiceSezvan:     "/images/chicken sezvan fired rice.jpeg",
+  friedRiceEggSezvan:  "/images/egg schazvan fired rice.jpeg",
+  garlicButterRice:    "/images/chiceken garlic butter rice.jpg",
+  manchurianRice:      "/images/chiceken machurian rice.jpg",
+  chillGarlicRice:     "/images/chicken chill garlic rice.jpg",
 
   // --- TANDOOR & STARTERS ---
-  tandooriTikka:
-    "https://images.unsplash.com/photo-1617692855027-33b14f061079?w=500&auto=format&fit=crop&q=80",
-  chickenTangdi:
-    "https://images.unsplash.com/photo-1626777552726-4a6b54c97e46?w=500&auto=format&fit=crop&q=80",
-  malaiTikka:
-    "https://images.unsplash.com/photo-1628294895950-9805252327bc?w=500&auto=format&fit=crop&q=80",
-  crispyLollipop:
-    "https://images.unsplash.com/photo-1562967914-608f82629710?w=500&auto=format&fit=crop&q=80",
-  muttonChaap:
-    "https://images.unsplash.com/photo-1544025162-d76694265947?w=500&auto=format&fit=crop&q=80",
-  springRoll:
-    "https://images.unsplash.com/photo-1548869206-93b036288d7e?w=500&auto=format&fit=crop&q=80",
-  seafoodFry:
-    "https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?w=500&auto=format&fit=crop&q=80",
-  prawnFry:
-    "https://images.unsplash.com/photo-1565680018434-b513d5e5fd47?w=500&auto=format&fit=crop&q=80",
-  boiledEggSnack:
-    "https://images.unsplash.com/photo-1582722872445-44dc5f7e3c8f?w=500&auto=format&fit=crop&q=80",
+  tandooriTikka:       "/images/chicken angara.jpg",
+  chickenTangdi:       "/images/chicken-tangdi-kabab.webp",
+  malaiTikka:          "/images/Malai Chicken Tikka.webp",
+  crispyLollipop:      "/images/crispy chicken lollipop.webp",
+  chickenLollipop:     "/images/chicken lollipop.jpg",
+  chicken65:           "/images/chicken 65.jpg",
+  springRoll:          "/images/chicken spring rolls.webp",
+  seafoodFry:          "/images/golden fish bites.webp",
+  prawnFry:            "/images/golden parwn bites.webp",
+  prawnTawa:           "/images/Prawna tawa roasted.webp",
+  fishTikka:           "/images/fish tikka rosted.webp",
+  boiledEggSnack:      "/images/tawa fired boiled egg.webp",
+  cheeseBalls:         "/images/Chicken-Cheese-Balls.webp",
+  crispy:              "/images/crispy-fried-chicken.webp",
+  afganiTikka:         "/images/afagani chicken tikka.webp",
+  pahadi:              "/images/pahadi chicken tikka.webp",
+  lemonPepper:         "/images/lemon paper tikka.webp",
+  periPeri:            "/images/peri-peri-chicken-p4.webp",
+  chickenChillyDry:    "/images/chicken chilly dry.webp",
 
   // --- CURRIES & GRAVIES ---
-  handiClayCurry:
-    "https://images.unsplash.com/photo-1606471191009-63994c53433b?w=500&auto=format&fit=crop&q=80",
-  chickenCurryHomestyle:
-    "https://images.unsplash.com/photo-1588166524941-3bf61a9c41db?w=500&auto=format&fit=crop&q=80",
-  butterChicken:
-    "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?w=500&auto=format&fit=crop&q=80",
-  muttonRoganJosh:
-    "https://images.unsplash.com/photo-1545247181-516773cae754?w=500&auto=format&fit=crop&q=80",
-  laalMaas:
-    "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=500&auto=format&fit=crop&q=80",
-  eggCurry:
-    "https://images.unsplash.com/photo-1525351484163-7529414344d8?w=500&auto=format&fit=crop&q=80",
-  fishCurry:
-    "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?w=500&auto=format&fit=crop&q=80",
-  prawnCurry:
-    "https://images.unsplash.com/photo-1559847844-5315695dadae?w=500&auto=format&fit=crop&q=80",
-  dalMakhani:
-    "https://lh3.googleusercontent.com/aida-public/AB6AXuCI6bcYLC7POPgSmu8-8WXzHNQ-vXX3M5HhpYff8FUdQDJqunYfytrnv_aMqtnEScIGNbiwR6FkV83BCymwaroOWWE8ryOpeMzg5hvuLAEXJmO430_K7qja9D9eZ8Uw-d7a3MvLQA6UrI1dih4lsbEgraUqrS08DcbH8aU6gOlxx63tFGtSh-ET08FJM3s88gEcYXi2kBzpcvBmeBbcO1TvWLpDvs_e9LeUPW3l2c0l4aB-YhS0zrEO3MFHLYA4QCt5BYldXy6ljvM",
-  paneerMakhani:
-    "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?w=500&auto=format&fit=crop&q=80",
-  kadaiPaneer:
-    "https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?w=500&auto=format&fit=crop&q=80",
-  rassaBroth:
-    "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=500&auto=format&fit=crop&q=80",
+  handiClayCurry:      "/images/chicken champaran.webp",
+  butterChicken:       "/images/butter chicken.jpg",
+  chickenCurryHomestyle:"/images/chicken curry.webp",
+  chickenKadhai:       "/images/chicken kadhai.jpg",
+  chickenTikkaMasala:  "/images/chicken tikka masala.jpg",
+  chickenTawaMasala:   "/images/chicken tawa masala.jpg",
+  chickenAngara:       "/images/chicken angara.jpg",
+  chickenLababdar:     "/images/chicken lababdar.jpg",
+  chickenDana:         "/images/chicken dana.jpeg",
+  chickenMughlai:      "/images/chicken mughlai rice bowl.jpg",
+  chickenDalGosht:     "/images/chicken dal gosht.jpg",
+  chickenLegCurry:     "/images/chicken leg curry.webp",
+  chickenGavranRassa:  "/images/chicken gavran rasssa.webp",
+  chickenLaalMaas:     "/images/chicken laal mass.webp",
+  muttonRoganJosh:     "/images/mutton Curry.webp",
+  laalMaas:            "/images/mutton laal mass.webp",
+  muttonChamparan:     "/images/mutton champaran.jpg",
+  muttonTawa:          "/images/mutton tawa masala.jpg",
+  muttonDalGosht:      "/images/mutton dal gosht.jpg",
+  kholaMutton:         "/images/kholapuri mutton curry.jpg",
+  gavranMutton:        "/images/gavran mutton curry.webp",
+  eggCurry:            "/images/egg curry.jpg",
+  eggButterMasala:     "/images/egg butter masala.jpg",
+  eggKholapuri:        "/images/egg kholapuri.jpeg",
+  eggRajasthan:        "/images/egg rajesthan.jpg",
+  fishCurry:           "/images/fish curry.jpg",
+  suramaiFish:         "/images/suramai fish curry.jpg",
+  prawnCurry:          "/images/jinga curry.jpg",
+  kholachicken:        "/images/kholapur chicken curry.webp",
+  dalFry:              "/images/dala fry.jpg",
+  paneerMakhani:       "/images/panner butter masala.jpg",
+  kadaiPaneer:         "/images/paneer kadhai.jpg",
+  paneerLababdar:      "/images/paneer lababdar.jpg",
+  paneerAngara:        "/images/panner angara.jpg",
+  paneerTufani:        "/images/panner tufani.jpg",
+  paneerTawa:          "/images/paneer tawa masala.webp",
+  paneerDoPyaza:       "/images/paneer do pyaza.webp",
+  paneerMughlai:       "/images/paneer mughlai.jpeg",
+  paneerTikkaMasala:   "/images/paneer tikka masala.jpeg",
+  rassaBroth:          "/images/chicken gavran rasssa.webp",
+  chickenShorba:       "/images/Chicken-Shorba.webp",
+
+  // --- RICE BOWLS ---
+  riceBowlMeal:        "/images/chicken rice bowl.jpg",
+  butterChickenBowl:   "/images/butter chicken rice bowl.jpg",
+  chickenKadhaiBowl:   "/images/chicken kadhai rice bowl.jpg",
+  chickenAngaraBowl:   "/images/chicken angara rice bowl.jpeg",
+  chickenLababdarBowl: "/images/chicken lababdar rice bowl.jpg",
+  chickenTikkaBowl:    "/images/chicken tikka rice bowl.jpg",
+  chickenMughlaiBowl:  "/images/chicken mughlai rice bowl.jpg",
+  muttonCurryBowl:     "/images/mutton curry with rice bowl.jpeg",
 
   // --- THALIS & COMBOS ---
-  thaliRoyal:
-    "https://images.unsplash.com/photo-1610057099443-fde8c4d50f91?w=500&auto=format&fit=crop&q=80",
-  riceBowlMeal:
-    "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=500&auto=format&fit=crop&q=80",
+  thaliRoyal:          "/images/chicken rice bowl.jpg",
 
   // --- BREADS & ROTIS ---
-  rotiPhulka:
-    "https://images.unsplash.com/photo-1626074353765-517a681e40be?w=500&auto=format&fit=crop&q=80",
-  tandooriNaan:
-    "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=500&auto=format&fit=crop&q=80",
-  paratha:
-    "https://images.unsplash.com/photo-1604152135912-04a022e23696?w=500&auto=format&fit=crop&q=80",
-  batiDesi:
-    "https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=500&auto=format&fit=crop&q=80",
+  rotiPhulka:          "/images/rotlo.webp",
+  tandooriNaan:        "/images/tanduri roti.webp",
+  paratha:             "/images/bati.webp",
+  batiDesi:            "/images/bati.webp",
 
   // --- CHINESE CORNER ---
-  noodlesHakka:
-    "https://images.unsplash.com/photo-1585032226651-759b368d7246?w=500&auto=format&fit=crop&q=80",
-  noodlesSchezwan:
-    "https://images.unsplash.com/photo-1612927601601-6638404737ce?w=500&auto=format&fit=crop&q=80",
-  chilliChickenDry:
-    "https://images.unsplash.com/photo-1525755662778-989d0524087e?w=500&auto=format&fit=crop&q=80",
-  manchurian:
-    "https://images.unsplash.com/photo-1569058242253-92a9c755a0ec?w=500&auto=format&fit=crop&q=80",
-  chicken65:
-    "https://images.unsplash.com/photo-1610057099431-d73a1c9d2f2f?w=500&auto=format&fit=crop&q=80",
+  noodlesHakka:        "/images/chicken hakka noodles.jpg",
+  noodlesSchezwan:     "/images/chicken schzavan noodles.jpg",
+  noodlesSingapuri:    "/images/chicken singapuri noodles.jpg",
+  noodlesManchuri:     "/images/chicken machurian noodles.jpeg",
+  noodlesTriple:       "/images/chicken triple noodles.jpeg",
+  noodlesEggHakka:     "/images/egg hakka noodles.jpeg",
+  noodlesEggSchezwan:  "/images/egg schazvan noodles.jpg",
+  chilliChickenDry:    "/images/chicken chilly dry.webp",
+  manchurian:          "/images/chicken manchurian dry.jpg",
+  manchurianGravy:     "/images/chicken manchurian gravy.jpg",
+  chickenSzechwan:     "/images/chicken szechwan dry.jpg",
 
   // --- BEVERAGES & SIDES ---
   buttermilkChhas:
@@ -117,6 +141,7 @@ const IMAGES = {
     "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=500&auto=format&fit=crop&q=80",
   masalaPapad:
     "https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=500&auto=format&fit=crop&q=80",
+
   waterColdDrink:
     "https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=500&auto=format&fit=crop&q=80",
 

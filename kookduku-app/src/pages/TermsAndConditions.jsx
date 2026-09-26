@@ -36,7 +36,7 @@ export default function TermsAndConditions() {
             <p><strong className="text-slate-900 dark:text-white">GSTIN:</strong> <span className="text-amber-700 dark:text-amber-300 font-mono">[GST REGISTRATION NUMBER — Required if GST-registered]</span></p>
             <p><strong className="text-slate-900 dark:text-white">FSSAI Registration No.:</strong> <span className="font-mono font-bold text-slate-900 dark:text-white">20725002000562</span></p>
             <p><strong className="text-slate-900 dark:text-white">Registered Office:</strong> <span className="text-amber-700 dark:text-amber-300 font-mono">[FULL REGISTERED ADDRESS]</span></p>
-            <p><strong className="text-slate-900 dark:text-white">Principal Place of Business:</strong> Kook Du Ku Restaurant, HSR Layout, Sector 2, Bangalore – 560102 <span className="text-amber-700 dark:text-amber-300 font-mono">[VERIFY]</span></p>
+            <p><strong className="text-slate-900 dark:text-white">Principal Place of Business:</strong> Kook Du Ku Restaurant, F/23–24, Royal Heights, Near Vaishnodevi Circle, Ahmedabad – 382421 <span className="text-amber-700 dark:text-amber-300 font-mono">[VERIFY]</span></p>
             <p><strong className="text-slate-900 dark:text-white">Contact Email:</strong> <span className="text-amber-700 dark:text-amber-300 font-mono">hello@kookduku.com [REPLACE]</span></p>
             <p><strong className="text-slate-900 dark:text-white">Contact Phone:</strong> <span className="text-amber-700 dark:text-amber-300 font-mono">[YOUR ACTUAL PHONE NUMBER]</span></p>
             <p><strong className="text-slate-900 dark:text-white">Grievance Officer:</strong> <span className="text-amber-700 dark:text-amber-300 font-mono">[NAME, EMAIL, PHONE — Required under E-Commerce Rules 2020, Rule 5(3)(f)]</span></p>
@@ -46,12 +46,13 @@ export default function TermsAndConditions() {
         <section>
           <h2 className="text-base font-bold text-gray-900 dark:text-white mb-2">3. Our Services</h2>
           <p className="text-slate-700 dark:text-neutral-300">
-            Kook Du Ku is a cloud kitchen offering Indian cuisine (curries, biryani, and related dishes) for
-            delivery and pickup via WhatsApp ordering. We operate from{" "}
-            <strong className="text-slate-900 dark:text-white">11:30 AM to 11:45 PM, Monday to Sunday</strong>.
+            Kook Du Ku is a restaurant offering authentic Indian cuisine — slow dum-cooked curries,
+            biryanis, tikkas, and clay pot specialities — for delivery and pickup via WhatsApp ordering.
+            We operate from{" "}
+            <strong className="text-slate-900 dark:text-white">12:00 PM – 3:00 PM and 6:00 PM – 12:00 AM, Monday to Sunday</strong>.
           </p>
           <p className="mt-2 text-slate-700 dark:text-neutral-300">
-            This Site is a digital menu and ordering interface. Actual order processing occurs via WhatsApp.
+            This site is a digital menu and ordering interface. Actual order processing occurs via WhatsApp.
             Orders are confirmed only upon acknowledgement by our team via WhatsApp.
           </p>
         </section>
